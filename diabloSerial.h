@@ -38,6 +38,7 @@ extern "C" {
 #endif
 
 extern unsigned char file_GetC(WORD  Handle) ;
+extern void CloseComm();
 extern int OpenComm(char *comport, int newrate) ;
 extern void blitComtoDisplay(WORD  X, WORD  Y, WORD  Width, WORD  Height, t4DByteArray  Pixels);
 extern WORD bus_Read8(void);
