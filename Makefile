@@ -19,7 +19,7 @@ DYNAMIC=diabloSerial.so
 DEBUG	= -O2
 CC	= gcc
 INCLUDE	= -I.
-CFLAGS	= $(DEBUG) -Wall $(INCLUDE) -Winline -pipe
+CFLAGS	= $(DEBUG) -Wall $(INCLUDE) -Winline -pipe -fPIC
 
 #LIBS    = -lpthread
 
